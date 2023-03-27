@@ -1,1 +1,1 @@
-console.log("API goes here");
+const API = process.env.API_URL;
