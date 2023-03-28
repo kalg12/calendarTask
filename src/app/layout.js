@@ -5,7 +5,6 @@ export const metadata = {
   description:
     "Este sitio web muestra las próximas tareas a realizar en el SR - La Laja",
 };
-import Image from "next/image";
 
 const Links = [
   { href: "/", label: "Inicio" },
@@ -20,13 +19,6 @@ export default function RootLayout({ children }) {
           <nav className="px-2 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
             <div className="container flex flex-wrap items-center justify-between mx-auto">
               <Link href="/" className="flex items-center">
-                <Image
-                  src="https://flowbite.com/docs/images/logo.svg"
-                  className="h-6 mr-3 sm:h-10"
-                  alt="Flowbite Logo"
-                  width={100}
-                  height={100}
-                />
                 <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
                   Calendario de actividades
                 </span>
